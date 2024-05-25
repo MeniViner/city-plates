@@ -2,11 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faPlus, faBarsProgress } from '@fortawesome/free-solid-svg-icons';
-import Icon from '@mdi/react';
-import { mdiMapMarkerQuestionOutline, mdiCarSeat } from '@mdi/js';
-
 import '../styles/top.css'; 
-
 
 const TopNavigation = () => {
 
@@ -50,24 +46,3 @@ const TopNavigation = () => {
 };
 
 export default TopNavigation;
-
-// import Icon from '@mdi/react';
-// import { mdiMapMarkerQuestionOutline, mdiCarSeat } from '@mdi/js';
-
-
-
-// src/components/Top.jsx
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-
-// const Top = () => {
-//   return (
-//     <nav>
-//       <h1 style={{ textAlign: 'center' }}>
-//         <Link to="/">My Restaurant Site</Link>
-//       </h1>
-//     </nav>
-//   );
-// };
-
-// export default Top;

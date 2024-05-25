@@ -22,11 +22,6 @@ body, input, button, select {
   margin-bottom: 3vh;
 }
 
-
-/* .sort-dropdown select:hover {
-  border: 2px solid #007bff;
-} */
-
 .management .search-bar {
   width: 30%;
   padding: 10px;
@@ -199,4 +194,3 @@ select {
 .edit-item input:focus + .manage-label {
   display: block;
 }
-

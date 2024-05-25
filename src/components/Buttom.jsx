@@ -1,9 +1,4 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { faHome, faPlus, faBarsProgress } from '@fortawesome/free-solid-svg-icons';
-import Icon from '@mdi/react';
-import { mdiMapMarkerQuestionOutline, mdiCarSeat } from '@mdi/js';
-
 import '../styles/buttom.css'
 
 

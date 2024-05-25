@@ -20,11 +20,9 @@
     display: flex;
     background-size: cover;
     background-position: center;
-    /* position: relative; */
 }
 
 .main-restaurant::before {
-    /* content: ''; */
     position: absolute;
     top: 0;
     left: 0;
@@ -39,8 +37,6 @@
     flex-direction: column;
     background-color: white;
     border: 3px solid #d84315;
-    /* height: 80vh; */
-    /* width: 55vw; */
     margin: 30px;
     margin-top: 10px;
     margin-left: 10px;
@@ -79,7 +75,7 @@
 
 .description {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Darker background for better contrast */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 55px;
     border-radius: 25px;
     margin-left: -65vw;
@@ -87,8 +83,8 @@
     margin-bottom: 16vh;
     font: 2.5em sans-serif;
     font-family: 'Roboto', sans-serif;
-    font: 2.5em 'Montserrat', sans-serif; /* Updated font family */
-    font-family: 'Montserrat', sans-serif; /* Ensure consistent font family */
+    font: 2.5em 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5; 
 }
 
@@ -121,11 +117,11 @@
     height: 80vh;
     object-fit: cover;
     border-radius: 5px ;
-    transition: transform 0.3s ease; /* Smooth transition for transform property */
+    transition: transform 0.3s ease; 
 }
 
 .restaurant-images img:hover {
-    transform: scale(1.01); /* Zoom out the image slightly on hover */
+    transform: scale(1.01); 
 }
 
 .carousel-button {
@@ -140,7 +136,7 @@
 }
 
 .carousel-button:hover {
-    background-color: #963636; /* Darken the background on hover */
+    background-color: #963636; 
     border: 1px solid white  ;
     padding: 11px;
 }
@@ -151,7 +147,7 @@
 }
 
 .carousel-button:active {
-    transform: translateY(2px); /* Add slight vertical shift on click */
+    transform: translateY(2px); 
 }
 
 .carousel-button.prev {
@@ -165,10 +161,6 @@
 .re-fi-icon {
     font-Size: 20px;
     color: #d84315;
-}
-
-.re-se-icon {
-
 }
 
 .re-ye-st-icon {
