@@ -1,0 +1,202 @@
+body, input, button, select {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.management {
+  width: 75vw;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.management h1 {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.search-sort-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+}
+
+
+/* .sort-dropdown select:hover {
+  border: 2px solid #007bff;
+} */
+
+.management .search-bar {
+  width: 30%;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.management .search-bar {
+  width: 30%;
+}
+
+.sort-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.sort-dropdown label {
+  margin-right: 10px;
+}
+
+select {
+  color: rgb(76, 76, 76);
+}
+
+.sort-dropdown select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background: 
+  linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+
+}
+
+.management .restaurant-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.management .edit-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.management .edit-item input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 3px solid #ccc;
+}
+
+.management .form-btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.management .form-btns button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.management .form-btns button:first-child {
+  background-color: green;
+  color: white;
+}
+
+.management .form-btns button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.management table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.restaurant-container:hover {
+  border: 2px solid #007bff;
+}
+.edit-item input:focus {
+  border: 1px solid #007bff;
+  outline: none; 
+  box-shadow: 0 0 5px rgba(93, 64, 55, 0.5);
+}
+.edit-item input{
+  box-shadow: 0 0 1px rgba(93, 64, 55, 0.5);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.management table th,
+.management table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.management table th {
+  background-color: #f2f2f2;
+}
+
+.management table td {
+  background-color: #fff;
+}
+
+.management table td .edit-btn,
+.management table td .delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.management table td .edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.management table td .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.manage-label {
+  color: rgb(48, 172, 255);
+  margin-left: 2vw;
+}
+
+.manage-add {
+  display: flex;
+  flex-direction: row;
+}
+
+.Manage-Restaurants {
+  margin-top: -15vh;
+  padding-bottom: 10px;
+  color: #d84315;
+  font-family: 'Poppins', sans-serif;
+  text-shadow:
+    1px 1px 2px #fff, 
+    -1px -1px 2px #bbb, 
+    2px 2px 4px #aaa;
+}
+
+.manage-label {
+  display: none;
+}
+
+.edit-item input:focus + .manage-label {
+  display: block;
+}
+

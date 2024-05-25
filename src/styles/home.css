@@ -1,0 +1,163 @@
+* {
+  text-decoration: none;
+}  
+  
+.home-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.home-Search {
+  margin-top: -14vh;
+  padding-bottom: 10vh;
+}
+
+.home-container input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.home-container input:focus {
+  border: 1px solid #d84315;
+  outline: none; 
+}
+
+
+.restaurant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}  
+  
+.restaurant-card {
+  position: relative;
+  background: white;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  transition: transform 0.5s ease, opacity 1s ease;
+  opacity: 1;
+}
+
+.restaurant-card:hover img {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* .restaurant-card::after {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+} */
+
+.restaurant-card::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: -10%;
+  left: -150%;
+  width: 250%;
+  height: 4dvb;
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(45deg);
+  transition: all 0.5s ease-in;
+}
+
+.restaurant-card:hover::after {
+  top: 100%;
+  left: 100%;
+}
+
+.restaurant-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-top: 20vh;
+}
+
+.restaurant-card:hover .restaurant-details {
+  opacity: 1;
+}
+
+.restaurant-card h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.restaurant-card p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.restaurant-card h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #d84315;
+  text-decoration-line: none;
+}
+
+.add-restaurant-card .restaurant-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #d84315;
+  background: #fff3e0;
+  border: 1px dashed #d84315;
+  transition: transform 0.3s ease;
+}
+
+.add-restaurant-card  .i-c{
+  background: #fff3e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 21%;
+  height: 100%;
+  transition: transform 0.4s ease;
+}
+
+.add-restaurant-card:hover .icon-container {
+  transform: rotate(180deg);
+}
+
+
+.add-t {
+  font: 0.9em sans-serif;
+  background-color: white;
+  width: 100%;
+}

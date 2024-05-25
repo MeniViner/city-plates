@@ -1,0 +1,120 @@
+
+body {
+  background-color: #f8f9fa;
+}
+
+.add-restaurant {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff3e0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.add-restaurant h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #d84315;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.1em;
+}
+
+.add-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-left, .form-right {
+  width: 45%;
+  padding: 0 2%;
+  margin-right: 1%;
+
+}
+
+.add-description {
+  max-width: 98%;
+  margin-left: 0.5%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffdfaf;
+  color: #5d4037;
+  border-bottom: 4px solid #cccccc;
+}
+
+.form-group textarea {
+  height: fit-content;
+  resize: none;
+}
+
+.form-group input,
+.form-group textarea {
+  transition: border 0.2s ease; 
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 1px solid #5d4037;
+  outline: none; 
+}
+
+button[type="submit"] {
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #d84315;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #bf360c;
+}
+
+/* Hide arrows in number input for webkit browsers (Chrome, Safari, Edge) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide arrows in number input for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#Add-New-Restaurant {
+  margin-top: -24.5vh;
+  padding-bottom: 10vh;
+  color: #d84315;
+  font-family: 'Poppins', sans-serif;
+  text-shadow:
+    1px 1px 2px #fff, 
+    -1px -1px 2px #bbb, 
+    2px 2px 4px #aaa;
+}

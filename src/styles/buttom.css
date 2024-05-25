@@ -1,0 +1,21 @@
+.buttum {
+    background-color: #333;
+    color: #ffe5ab; 
+    
+    padding: 20px;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.bt-link {
+    color: #d84315; 
+}
+
+.bt-link:hover {
+    color: rgb(105, 196, 196);
+    text-decoration: underline;
+}
