@@ -1,6 +1,7 @@
 # city plates
 
-| find it online here: [https://city-plates.web.app/](https://city-plates.web.app/)
+| find it online here:
+ [https://city-plates.web.app/](https://city-plates.web.app/)
 
 Here is a video demonstration:
 
