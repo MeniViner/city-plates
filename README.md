@@ -8,3 +8,6 @@ Here is a video demonstration:
   <source src="https://raw.githubusercontent.com/MeniViner/city-plates/main/20240525_235241.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+[![Video demonstration](http://img.youtube.com/vi/hnjxyTaMqEg/0.jpg)](https://youtu.be/hnjxyTaMqEg)
